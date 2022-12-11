@@ -1,0 +1,124 @@
+body{
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: black;
+}
+
+#Head{
+  background-color:white;
+  padding:10px;
+  width:80%;
+  font-size:50px;
+  
+  border-radius: 30px;
+  animation:exp 4s infinite;
+  position: relative;
+  font-family: 'Arial Black';
+}
+
+@keyframes exp{
+0%   {left:0px; box-shadow: grey 7px 7px 7px;}
+20%  {left:50px; box-shadow: rgb(97, 97, 97) 7px 7px 7px;}
+40%  {left:0px; box-shadow: rgb(75, 75, 75) 7px 7px 7px;}
+60%  {left:-50px; box-shadow: rgb(75, 75, 75) 7px 7px 7px;}
+80%  {left:0px; box-shadow: rgb(97, 97, 97) 7px 7px 7px;}
+100% {left:0px; box-shadow: grey 7px 7px 7px;} 
+}
+
+
+#Logo{
+  width:80px;
+  height:80px;
+  display:inline-block;
+  border-radius: 10px;
+}
+
+.Header{
+  display:inline-block;
+}
+
+#Main{
+  background-color:white;
+  padding:20px;
+  width:90%;
+
+  border-radius: 30px;
+  height:70%;
+  animation:yay 4s infinite;
+  position: relative;
+}
+
+@keyframes yay{
+  0%   { box-shadow: grey 15px 15px 15px;}
+  20%  { box-shadow: rgb(97, 97, 97)  15px 15px 15px;}
+  40%  { box-shadow: rgb(75, 75, 75)  15px 15px 15px;}
+  60%  { box-shadow: rgb(75, 75, 75)  15px 15px 15px;}
+  80%  { box-shadow: rgb(97, 97, 97)  15px 15px 15px;}
+  100% { box-shadow: grey  15px 15px 15px;} 
+  }
+
+#img{
+  width:250px;
+  height:250px;
+  border:2px double black;
+  border-radius: 15px;
+  box-shadow: grey 10px 10px 10px;
+}
+
+#text{
+  width:75%;
+  float:right;
+  text-align: left;
+  font-size:25px;
+  left:10px;
+  background-color: rgb(225, 230, 233);
+  border-radius: 15px;
+  padding:10px;
+  font-family:'Book Antiqua';
+}
+
+#text:hover{
+  font-size:26px;
+}
+
+.btn{
+  Font-size:25px;
+  border-radius: 0px;
+  margin-right:0px;
+}
+
+#bar{
+  background-color:rgb(225, 230, 233);
+  padding:10px;
+  width:90%;
+  font-size:40px;
+  border-radius: 10px;
+  height:15%;
+  position: relative;
+  box-shadow: grey 5px 5px 5px;
+}
+
+#Men{
+  border-right:2px solid grey;
+  text-decoration: none;
+}
+
+#Women{
+  border-right:2px solid grey;
+  text-decoration: none;
+}
+
+#Smallmen{
+  border-right:2px solid grey;
+  text-decoration: none;
+}
+
+#Hoomen{
+  border-right:2px solid grey;
+  text-decoration: none;
+}
+
+#Trend{
+  text-decoration: none;
+}
+
